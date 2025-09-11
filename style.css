@@ -1,0 +1,365 @@
+body{
+    margin:0px
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color: #7600bc;
+   padding: 10px 20px;
+}
+
+.contact-1{
+    color: white;
+    display: flex;
+}
+img{
+    width: 30px;
+    height: 30px;
+    margin-top: 3px
+}
+.contact-1 p{
+    font-size: small;
+    font-family: sans-serif;
+}
+nav a{
+    text-decoration: none;
+    font-size: 16px; 
+    padding: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    background-color: white;
+    color: #7600bc;
+    border-radius: 10px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about img{
+    width: 500px;
+    height: 400px;
+}
+.intro h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-left: 60px;
+    margin-top: 0px;
+    color: #7600bc;
+}
+.intro p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 60px;
+    text-align: justify;
+    margin-right: 50px;
+    line-height: 30px;
+}
+.line{
+    display: flex;
+    margin: 0px;
+}
+.line img{
+    width: 50px;
+    height: 50px;
+}
+.part-3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 2px 2px 10px 0px ;
+    border-radius: 20px;
+
+}
+.html p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.html img{
+    width: 100px;
+    height: 100px;
+}
+.html:hover{
+    box-shadow: 2px 2px 20px 0px ;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.skill h1{
+     font-family: sans-serif;
+    font-size: 50px;
+    margin-left: 60px;
+    margin-top: 0px;
+    color: #7600bc;
+}
+.java{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 2px 2px 10px 0px ;
+    border-radius: 20px;
+}
+.java img{
+    width: 80px;
+    height: 100px;
+}
+.java p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.js{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 2px 2px 10px 0px ;
+    border-radius: 20px;
+}
+.js img{
+    width: 100px;
+    height: 100px;
+}
+.js p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.node{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 2px 2px 10px 0px ;
+    border-radius: 20px;
+}
+.node img{
+    width: 100px;
+    height: 90px;
+}
+.node p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.react{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 2px 2px 10px 0px ;
+    border-radius: 20px;
+}
+.react img{
+    width: 100px;
+    height: 100px;
+}
+.react p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.java:hover, .js:hover, .node:hover, .react:hover{
+    box-shadow: 2px 2px 20px 0px ;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.css{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 2px 2px 10px 0px ;
+    border-radius: 20px;
+}
+.css img{
+    width: 100px;
+    height: 130px;
+}  
+.css p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.css:hover{
+    box-shadow: 2px 2px 20px 0px ;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.project h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-left: 60px;
+    margin-top: 0px;
+    color: #7600bc;
+}
+.chatbot{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.chatbot h1{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.chatbot p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    text-align: justify;
+    margin-right: 50px;
+    line-height: 30px;
+}
+.fasion{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.fasion h1{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.fasion p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    text-align: justify;
+    margin-right: 50px;
+    line-height: 30px;
+}
+
+.recommendation h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-left: 60px;
+    margin-top: 0px;
+    color: #7600bc;
+}
+.rec{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+.rec-1{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.rec-1 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+.rec-1:hover, .rec-2:hover, .rec-3:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+    
+.rec-2{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.rec-2 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+.rec-3{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.rec-3 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+.inbox h1{
+    text-align: center;
+}
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input input{
+    width: 400px;
+    height: 30px;
+    border-radius: 13px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.input button{
+    width: 100px;
+    height: 40px;
+    border-radius: 13px;
+    border: none;
+    background-color: #7600bc;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 150px;
+    cursor: pointer;
+}
+.input textarea{
+    width: 400px;
+    height: 100px;
+    border-radius: 13px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}  
+.footer{
+    text-align: center;
+    background-color: #7600bc;
+    color: white;
+    padding: 10px;
+    font-family: sans-serif;
+    margin-top: 20px;
+} 
